@@ -36,18 +36,27 @@ body{
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding: 20px 0;
+    /* padding: 20px 0; */
     width: 100%;
-    border: 1px solid rgb(73, 74, 82);
+    border-bottom: 1px solid rgb(73, 74, 82);
 }
 
 .div-12-min img{
-    width: calc(16.6666667% - 40px);
-    margin: 20px;
+    width: calc(16.6666667% - 10px);
+    margin: 5px;
+}
+
+.div-12-max{
+    width: 94%;
+    margin: 0 auto;
+}
+
+.div-12-max img{
+    width: 100%;
 }
 
 .block-btn{
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
